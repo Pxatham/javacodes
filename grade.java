@@ -5,16 +5,13 @@ public class grade {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your marks");
         int a=sc.nextInt();
-            if(a>=90)
-            {
+            if(a>=90){
                 System.out.println("Your grade is A");
             }
-            else if(a>=80)
-            {
+            else if(a>=80){
                 System.out.println("Your grade is B");
             }
-            else if(a>=70)
-            {
+            else if(a>=70){
                 System.out.println("Your grade is C");
             }
             else if(a>=60)
