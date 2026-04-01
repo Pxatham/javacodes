@@ -1,8 +1,11 @@
+import java.util.Scanner;
 class LCM {
     public static void main(String[] args) {
-
-        int a = 4;
-        int b = 6;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your marks 1 ");
+        int a=sc.nextInt();
+        System.out.println("Enter your marks 2 ");
+        int b = sc.nextInt();
 
         int max = (a > b) ? a : b;  // start from bigger number
 
