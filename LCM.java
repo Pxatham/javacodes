@@ -19,4 +19,4 @@ class LCM {
             max++;  // check next number
         }
     }
-}
+}9425429900.  9589259459
