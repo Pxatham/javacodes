@@ -15,5 +15,6 @@ public class greater {
                 System.out.print("a is smaller than b");
             }
         }
+        sc.close();
     }
 }

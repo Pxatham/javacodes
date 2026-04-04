@@ -18,5 +18,6 @@ class LCM {
 
             max++;  // check next number
         }
+        sc.close();
     }
-}9425429900.  9589259459
+}//9425429900.  9589259459

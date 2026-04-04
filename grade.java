@@ -22,6 +22,6 @@ public class grade {
             {
                 System.out.println("Your grade is F");
             }
-        
+        sc.close();
     }
 }

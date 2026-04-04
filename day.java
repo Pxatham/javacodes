@@ -42,5 +42,6 @@ public class day {
             default:
                 System.out.println("Invalid input");
         }
+        sc.close();
     }
 }

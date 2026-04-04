@@ -18,5 +18,7 @@ public class pract {
         }
 
         System.out.println("Sum = " + sum);
+        sc.close();
     }
+        
 }
