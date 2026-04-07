@@ -1,14 +1,21 @@
-class countdigits {
+import java.util.Scanner;
+
+public class CountDigits {
     public static void main(String[] args) {
 
-        int num = 12345;  // number
-        int count = 0;    // digit counter
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int n = sc.nextInt();
 
-        while(num != 0) {   // loop until number becomes 0
-            num = num / 10; // remove last digit
-            count++;        // increase counter
+        int count = 0;
+
+        // loop to count digits
+        while(n != 0){
+            n = n / 10;
+            count++;
         }
 
         System.out.println("Digits = " + count);
+        sc.close();
     }
 }
